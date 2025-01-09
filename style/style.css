@@ -7,11 +7,12 @@
 }
 
 /* nav style */
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -43,10 +44,12 @@ nav ul li {
 nav li a {
     text-decoration: none;
 }
+
 /* shared */
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF8F3;
 }
+
 .dark-2 {
     color: rgb(71, 71, 71);
 }
@@ -61,16 +64,29 @@ nav li a {
     border: none;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
 
-.section-description{
+.section-description {
     font-size: 18px;
     color: #757575;
+}
 
+.text-align {
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #757575;
 }
 
 /* banner styles */
@@ -79,26 +95,29 @@ nav li a {
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 300;
     color: #8E8D8C;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 27px 0 120px;
 }
-.banner-image-size{
+
+.banner-image-size {
     width: 554px;
     height: 676px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
     margin-left: 100px;
 }
@@ -106,37 +125,59 @@ nav li a {
 
 /* main section */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* about section */
 
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
-.about-title{
+.about-title {
     font-size: 20px;
     color: #757575;
 }
 
-.about_description{
+.about_description {
     font-size: 20px;
     color: #757575;
     font-weight: bold;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
 
-.indide-bg{
+.inside-bg {
     background-color: white;
     border: 1px solid black;
     padding: 0 5px;
+}
+
+/* skill-section  */
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+
+.skill {
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 50px 30px 30px 30px;
 }
