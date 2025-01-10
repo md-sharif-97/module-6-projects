@@ -6,24 +6,30 @@
         "wdth" 100;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* nav style */
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-left: 23px;
+    padding-left: 13px;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
     padding-left: 118px;
+    margin-left: 88px;
 }
 
 .nav-title span {
@@ -68,6 +74,7 @@ nav li a {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    margin-bottom: 30px;
 }
 
 .section-description {
@@ -82,11 +89,17 @@ nav li a {
 .skill-title {
     font-size: 20px;
     color: #181818;
+    margin-bottom: 20px;
 }
 
 .skill-description {
     font-size: 16px;
     color: #757575;
+    margin-bottom: 30px;
+}
+
+.skill img{
+    margin-bottom: 30px;
 }
 
 /* banner styles */
@@ -98,18 +111,20 @@ nav li a {
 .banner-title {
     font-size: 85px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .banner-description {
     font-size: 18px;
     font-weight: 300;
     color: #8E8D8C;
+    margin-bottom: 30px;
 }
 
 .banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 27px 0 120px;
+    /* margin: 0 27px 0 120px; */
 }
 
 .banner-image-size {
@@ -119,7 +134,8 @@ nav li a {
 
 .banner-content {
     max-width: 500px;
-    margin-left: 100px;
+    margin-top:185px ;
+    margin-left: 200px;
 }
 
 
@@ -170,7 +186,7 @@ main section{
 .skill-container {
     display: flex;
     gap: 24px;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -180,4 +196,80 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     padding: 50px 30px 30px 30px;
+}
+
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 114px;
+    margin-bottom: 50px;
+}
+
+.resume-colomn-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-experiance-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-expireance-description{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume hr{
+    margin-bottom: 30px;
+}
+
+/* footer section */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-coloumn h3{
+    margin-bottom: 21px;
+}
+
+.footer-coloumn p{
+    margin-bottom: 30px;
+}
+.footer-coloumn a{
+    padding-right:30px ;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 461px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 24px;
+}
+
+.height{
+    height: 180px;
+    font-size: 18px;
 }
